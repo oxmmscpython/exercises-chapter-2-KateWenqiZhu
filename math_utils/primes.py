@@ -4,7 +4,6 @@ def isprime(n):
         for x in range(2, n):
           if n % x == 0:
               return False
-              break
         else:
               return True      
 
